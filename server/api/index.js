@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const cookieParser = require("cookie-parser")
 const dotenv = require("dotenv");
-const authRouter = require("./routes/auth/auth-routes");
-const sellerProductsRouter = require("./routes/seller/seller-routes");
+const authRouter = require("../routes/auth/auth-routes");
+const sellerProductsRouter = require("../routes/seller/seller-routes");
 
 dotenv.config({
   path: "./.env",
