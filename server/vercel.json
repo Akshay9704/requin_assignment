@@ -3,7 +3,7 @@
     "name" : "Requin",
     "builds" : [
         {
-            "src" : "./server.js",
+            "src" : "./api/index.js",
             "use" : "@vercel/node"
         }
     ],
