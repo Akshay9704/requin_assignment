@@ -1,3 +1,3 @@
-const URL = "http://localhost:5000"
+const URL = "https://requin-assignment.vercel.app/"
 
 export default URL;
